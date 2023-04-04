@@ -694,3 +694,20 @@ playbook/roles/website/tasks/
 /playbook/roles/website/tasks/
 cd playbook/roles/website/tasks/
 vi main.yml
+ls
+eval $(ssh-agent)
+ssh-add /home/ubuntu/.ssh/repokey
+git add .
+git commit" last updte"
+git commit"last updte"
+git comit"last updte"
+git commit
+git commit -m
+git commit -m"last update"
+git status
+git
+git remote add origin master
+git remote -v
+git status
+git rmote add origin ls
+ls
