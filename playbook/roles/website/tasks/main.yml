@@ -7,8 +7,8 @@
   copy:
     src: vars.html
     dest: "{{ file_path }}/vars.html"  
-    owner: root
-    group: root
+    owner: ubuntu
+    group: ubuntu
     mode: 0755
 
 - name: Add a link from index.html to vars.html
@@ -41,10 +41,10 @@
   lineinfile:
     path: "{{ file_path }}/vars.html"
     line: "<p>File {{ i.stat.path }} exists.</p>"
-  ignore:_errors: "{{ ansible_check_mode}}"  
+  ignore:_errors: "{{ ansible_check_mode }}"  
 
 - name: Set a fact within a role
-  Set_fact:
+  set_fact:
     a_fact: The sky is blue  
 
 - name: Insert a line using a_fact
