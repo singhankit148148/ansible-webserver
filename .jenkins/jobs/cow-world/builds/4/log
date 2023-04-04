@@ -1,0 +1,16 @@
+Started by user [8mha:////4IXcxxr72Cvg/oR4G20BasnRJsjTZJDKzj2Sz+JoIxK0AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/dLi1CL9RKDuktTkDADp/h/KwwAAAA==[0marintech
+Running as SYSTEM
+Building in workspace /home/ubuntu/.jenkins/workspace/cow-world
+[cow-world] $ /bin/sh -xe /tmp/jenkins8099388651777067604.sh
++ echo This project is called cow-world
+This project is called cow-world
++ /usr/games/cowsay Hello World
+ _____________
+< Hello World >
+ -------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+Finished: SUCCESS
