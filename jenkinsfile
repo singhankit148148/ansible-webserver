@@ -9,4 +9,12 @@
           stage('second stage') {
               steps {
                   echo "second stage"
-                              
+              }
+          }
+          stage('Third Stage'){
+              steps {
+                  echo "Third stage"
+              }
+          }
+       }
+   }                    
