@@ -3,7 +3,7 @@
       stages {
           stage('Delete the workspace') {
               steps {
-                  cleanWS() 
+                  cleanWS()
               }
           }
           stage('second stage') {
@@ -17,4 +17,8 @@
               }
           }
        }
-   }                    
+   }
+~
+~
+~
+
