@@ -21,7 +21,13 @@
                steps {
                   git credentialsId: 'git-repo-creds', url: 'git@github.com:singhankit148148/ansible-webserver.git'
               }
+                 
           }
+stage('Run ansible-lint against playbook') {
+    steps {
+    sh 'docker run --rm -v $WORKSPACE/playbook:/data cyptopia/ansible-lint:4 apache-install.yml'
+    sh 'docker run --rm -v $WORKSPACE/playbook:/data cyptopia/ansible-lint:4 website-update.yml'
+    sh 'docker run --rm -v $WORKSPACE/playbook:/data cyptopia/ansible-lint:4 website-test.yml'
        }
    }
 
