@@ -19,7 +19,7 @@
            }
            stage('Download Ansible Code'){
                steps {
-                  git 'git@github.com:singhankit148148/ansible-webserver.git'
+                  git credentialsId: 'git-repo-creds', url: 'git@github.com:singhankit148148/ansible-webserver.git'
               }
           }
        }
