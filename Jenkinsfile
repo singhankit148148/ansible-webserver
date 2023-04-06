@@ -17,9 +17,9 @@
                  sh 'sudo apt install -y wget tree unzip ansible python3-pip python3-apt'
    }}}
            }
-           stage('Third Stage'){
+           stage('Download Ansible Code'){
                steps {
-                   echo "Third stage"
+                  git 'git@github.com:singhankit148148/ansible-webserver.git'
               }
           }
        }
