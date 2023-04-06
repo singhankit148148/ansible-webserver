@@ -30,4 +30,4 @@ stage('Run ansible-lint against playbook') {
     sh 'docker run --rm -v $WORKSPACE/playbooks:/data cytopia/ansible-lint:4 website-test.yml'
        }
    }
-
+}
